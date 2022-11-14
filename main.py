@@ -2,7 +2,7 @@ import random
 import telebot
 from telebot import types
 
-bot = telebot.TeleBot('5588685007:AAEdXrvA9TzEwdtOPIdFavKq7U6EmZkDieQ')
+bot = telebot.TeleBot(token)
 keyboard = telebot.types.InlineKeyboardMarkup()
 
 keyboard.row(       telebot.types.InlineKeyboardButton(text=' ', callback_data='no'),
